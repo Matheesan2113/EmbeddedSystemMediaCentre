@@ -1,0 +1,9 @@
+.\flash\usbuser.o: usbuser.c
+.\flash\usbuser.o: type.h
+.\flash\usbuser.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\usbuser.o: usb.h
+.\flash\usbuser.o: usbcfg.h
+.\flash\usbuser.o: usbhw.h
+.\flash\usbuser.o: usbcore.h
+.\flash\usbuser.o: usbuser.h
+.\flash\usbuser.o: usbaudio.h

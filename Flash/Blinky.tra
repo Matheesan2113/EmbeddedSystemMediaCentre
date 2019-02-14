@@ -1,0 +1,34 @@
+*** Creating Trace Output File '.\Flash\Blinky.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_lpc17xx.o"'
+### List of Objects: adding '".\flash\system_lpc17xx.o"'
+### List of Objects: adding '".\flash\glcd_spi_lpc1700.o"'
+### List of Objects: adding '".\flash\led.o"'
+### List of Objects: adding '".\flash\irq.o"'
+### List of Objects: adding '".\flash\blinky.o"'
+### List of Objects: adding '".\flash\kbd.o"'
+### List of Objects: adding '".\flash\bg_16bpp_t.o"'
+### List of Objects: adding '".\flash\bg_16bpp_l.o"'
+### List of Objects: adding '".\flash\bg_16bpp_r.o"'
+### List of Objects: adding '".\flash\bg_16bpp_b.o"'
+### List of Objects: adding '".\flash\arm_ani_16bpp.o"'
+### List of Objects: adding '".\flash\rocket.o"'
+### List of Objects: adding '".\flash\pic2.o"'
+### List of Objects: adding '".\flash\pic1.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\flash\startup_lpc17xx.o" ".\flash\system_lpc17xx.o" ".\flash\glcd_spi_lpc1700.o" ".\flash\led.o" ".\flash\irq.o" ".\flash\blinky.o" ".\flash\kbd.o" ".\flash\bg_16bpp_t.o" ".\flash\bg_16bpp_l.o" ".\flash\bg_16bpp_r.o" ".\flash\bg_16bpp_b.o" ".\flash\arm_ani_16bpp.o" ".\flash\rocket.o" ".\flash\pic2.o" ".\flash\pic1.o" 
+--library_type=microlib --strict --scatter ".\Flash\Blinky.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Flash\Blinky.axf'
+### ADS-LD Command File: '.\Flash\Blinky.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Flash\Blinky.lnp', Handle=0x00000364
+### Writing '.lnp' file
+### ADS-LD Command file '.\Flash\Blinky.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
